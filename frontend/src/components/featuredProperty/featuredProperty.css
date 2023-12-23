@@ -1,0 +1,54 @@
+.fp {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fpItem {
+  
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+
+.fpImg {
+
+    width: 250px;
+    height: 150px;
+    background-image: url("https://www.gonvillehotel.co.uk/wp-content/uploads/2018/07/featured-hero-rosa.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 1px solid rgb(82, 77, 77);
+}
+
+.fpName {
+    font-weight: bold;
+}
+
+.fpCity {
+    font-weight: 300;
+}
+
+.fpPrice {
+    font-weight: 500;
+}
+
+.fpRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.fpRating>span {
+    font-size: 14px;
+}

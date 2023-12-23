@@ -1,0 +1,110 @@
+.sItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    
+    
+}
+
+.sItem .sImg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.sItem .sDetails {
+   
+    flex: 2;
+}
+.sDetails .sDheading1 {
+    font-weight: 20px;
+    color: #0073ab;
+}
+
+.sItem .sRating{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px ;
+}
+
+.sRating .topSection {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 23px;
+}
+
+
+
+.sRating .bottomSection{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sDetails .sDheading2, .sDheading3,
+        .sDheading4, .sDheading5, .sDheading6{
+            font-size: 13px;
+        }
+
+.sDheading3 {
+    background: green;
+    color: white;
+    width: max-content;
+    border-radius: 3px;
+
+    padding: 5px;
+}
+.sDheading4 {
+    font-weight: bold;
+}
+
+.sDheading5 {
+    color: green;
+    font-weight: bold;
+}
+
+.sDheading6 {
+    color: green;
+}
+
+.sRheading1 {
+    color: rgb(49, 49, 78);
+    margin: 0;
+}
+.rating{
+    background: #0d1857;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.taxInfo {
+    font-size: 12px;
+}
+
+.sRating .bottomSection .btn {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    background: #0073ab;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}

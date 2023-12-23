@@ -1,0 +1,68 @@
+.reserveContainer {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(50px);
+    background: transparent;
+
+}
+
+.reserveContainer .container {
+    width: 30vmax;
+    position: relative;
+
+}
+
+.close {
+    color: rgb(10, 10, 36);
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: 0.3s;
+
+}
+
+.close:hover {
+
+    transform: rotate(180deg);
+}
+
+.details {
+    font-size: 20px;
+    color: yello;
+}
+
+.reservationContent {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper {
+    background-color: white;
+}
+
+.wrapper .reserveButton {
+    background-color: rgb(10, 10, 36);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.4s all ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .reserveButton:hover {
+    background-color: rgba(10, 10, 36, 0.6);
+    /* color: rgb(10, 10, 36) */
+}

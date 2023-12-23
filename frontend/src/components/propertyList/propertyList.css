@@ -1,0 +1,46 @@
+.pList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  
+
+    
+}
+
+.pListItem {
+    position: relative;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    z-index: 1;
+}
+
+.pListImg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.pListTitle h3 {
+    margin: 2px 0 0;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+
+.pListTitle p{
+    margin: 0;
+    font-weight: 100;
+    font-size: small;
+    color: gray;
+}
+
+.spinner {
+    width: 100%;
+    max-width: 1024px;
+    height: 300px;
+    display: grid;
+    place-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}

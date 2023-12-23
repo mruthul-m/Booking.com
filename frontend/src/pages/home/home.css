@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sometype+Mono:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap');
+
+* {
+   
+font-family: 'Work Sans', sans-serif;
+}
+.homeContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+ 
+}
+
+.homeTitle {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 25px;
+
+
+}
